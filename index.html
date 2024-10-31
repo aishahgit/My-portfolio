@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aishah Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Aishah Shaikh</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+   <nav id="hamburger-nav">
+    <div class="logo">Aishah Shaikh</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+   </nav>
+   <section class="section-container" id="profile">
+    <div class="section_pic-container">
+        <img src="./image/Aishah pic (2).png" alt="Aishah profile pic">
+    </div>
+    <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Aishah Shaikh</h1>
+        <p class="section_text_p2">Front-end developer</p>
+        <div class="btn-container">
+            <button class="btn btn_2" onclick="window.open('./image/Aishah resume file.pdf', '_blank')">Download CV</button>
+            <button class="btn btn_1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div id="social-container">
+            <img src="./image/Linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/aishahshaikh02/'">
+            <img src="./image/github1.png" alt="My linkedin profile" class="icon" onclick="location.href='https://github.com/aishahgit'">
+        </div>
+    </div>
+   </section>
+
+   <!-- About -->
+   <section id="about" class="about-class">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./image/about2.jpg" alt="about-us image" class="about-us-img">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p class="about-para">
+                    Hi, I'm Aishah Shaikh, a passionate front-end developer with a BSc in IT.
+                     I specialize in crafting responsive, user-friendly websites using HTML, CSS, and JavaScript. 
+                     My goal is to build seamless web experiences that blend creativity and functionality.
+                     <br>
+                     <br>
+                     
+                     Designing with creativity and precision is what drives me, and I’m always excited to learn new techniques
+                      and tools that help enhance my skills. I’m passionate about creating web solutions that blend beautiful 
+                      design with smooth functionality, making the digital world more accessible and enjoyable for everyone.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li><span>Hyper Text Markup Language(HTML)</span><br></li>
+                        <li><span>Cascading Style Sheet(CSS)</span><br></li>
+                        <li><span>JavaScript</span><br></li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>Bsc.IT from SIES College of Arts,Science & Commerce</span><br></li>
+                        <li><span>HSC from S.K Somaiya Vinay Mandir Jr College</span><br></li>
+                        <li><span>SSC from A.K.I Girls High School</span><br></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!-- Project -->
+    <section id="project">
+        <p class="section-text-p1">Browse My Projects </p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="details-container color-container1">
+                <div class="article-container">
+                    <img src="./image/Skincare.png" alt="project 1" class="project-img1">
+                 </div>
+                 <h2 class="experience-sub-title project-title">Poject One</h2>
+                 <div class="btn-container">
+                    <button class="btn btn_2 project-btn" onclick="location.href='https://github.com/aishahgit/Purer-Pores'">
+                        Github
+                    </button>
+                    <button class="btn btn_2 project-btn" onclick="location.href=' https://aishahgit.github.io/Purer-Pores/'">
+                        Live Demo</button>
+                 </div>
+            </div>
+            <div class="details-container color-container2">
+                <div class="article-container">
+                    <img src="./image/hijab2.jpg" alt="project 1" class="project-img2">
+                 </div>
+                 <h2 class="experience-sub-title project-title">Poject Two</h2>
+                 <div class="btn-container">
+                    <button class="btn btn_2 project-btn" onclick="location.href='https://github.com/aishahgit/Hijabi-Lookbook'">
+                        Github
+                    </button>
+                    <button class="btn btn_2 project-btn" onclick="location.href='https://aishahgit.github.io/Hijabi-Lookbook/'">
+                        Live Demo</button>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+     <section id="contact">
+        <p class="section-text-p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./image/email.png" alt="Email icon"
+                class="icon contact-icon email-icon" >
+                <p><a href="ayeshasss42@gmail.com">ayeshasss42@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./image/Linkedin.png" alt="Email icon"
+                class="icon contact-icon" >
+                <p><a href="https://www.linkedin.com/in/aishahshaikh02/">Linkedin</a>
+                    </p>
+            </div>
+        </div>
+     </section>
+
+     <!-- Footer -->
+      <footer>
+        <nav class="nav-class">
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Aishah Shaikh. All Rights Reserved</p>
+      </footer>
+
+   
+
+
+
+   
+
+    
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>
