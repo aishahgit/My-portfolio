@@ -1,0 +1,161 @@
+@media screen and (max-width: 1500px){
+    .details-container.color-container1{
+        height: fit-content;
+    }
+    .details-container.color-container2{
+        height: fit-content;
+        
+    }
+}
+@media screen and (max-width: 1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-col-1 {
+        flex-basis: 35%;
+        min-width: 300px; 
+    }
+    .about-col-2 {
+        flex-basis: 60%;
+        min-width: 400px; 
+    }
+    .about-col-1 img {
+        max-width: 100%;
+        height: auto;
+    }
+    .details-container.color-container1{
+        height: fit-content;
+    }
+    .details-container.color-container2{
+        height: fit-content;
+        
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    #profile, .section-container{
+        display: block;
+
+    }
+    section, .section-container{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }    
+    .section_pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .row {
+        display: flex;
+        flex-direction: row; 
+      
+        justify-content: space-between; 
+      }
+    
+      .about-col-1, .about-col-2 {
+        width: 45%; 
+        padding: 20px; 
+      }
+    
+      .about-col-2 {
+        padding-left: 10px; 
+      }
+
+      .subtitle {
+        font-size: 1.8rem;
+      }
+    
+      .about-para {
+        font-size: 13px;
+      }
+    
+      .tab-content ul li span {
+        font-size: 0.9rem; 
+      }
+   
+  
+    .experience-details-container{
+        flex-wrap: wrap;
+    }
+    .details-container.color-container1{
+        height: fit-content;
+    }
+    .details-container.color-container2{
+        height: fit-content;
+      
+   
+    }
+    
+    }
+    
+    
+
+   
+
+@media screen and (max-width: 600px){
+    #contact,
+    footer{
+        height: 40vh;
+    }
+    #profile{
+        height: 80vh;
+        margin-bottom: 0;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .row, .contact-info-upper-container{
+
+           flex-wrap: wrap;
+   }
+   .contact-info-container{
+    margin: 0;
+   }
+   .contact-info-container p, .nav-links li a{
+        font-size: 1rem;
+   }
+   .logo{
+    font-size: 1.5rem;
+   }
+   .nav-links{
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+   } 
+      .section_pic-container{
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+   } 
+   .section_text_p2{
+    font-size: 1.25rem;
+   }
+   .title{
+    font-size: 2rem;
+   }
+   .about-para{
+    text-align: justify;
+   }
+   .about-col-1{
+    padding: 10px;
+   }
+   .abouts-us-image{
+    width: 100%;
+    max-width: 100%;
+   }
+   .row{
+    flex-wrap: wrap;
+   }
+
+}
